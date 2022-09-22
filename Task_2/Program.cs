@@ -21,5 +21,6 @@ a = a * a;
 double b = point2[1] - point1[1];
 b = b*b;
 double c = point2[2] - point1[2];
+с = с * с;
 double d = Math.Sqrt(a+b+c);
 Console.WriteLine($"Расстояние между дву точками равно {d}");
